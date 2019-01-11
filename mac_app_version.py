@@ -30,7 +30,7 @@ for i in range(len(app)):
 
             print ("\t" + str(i + 1 ) + ") "  + y + " - version:  " + x)
     else:
-        app0[z] = " \t Warning - " + app[i] + " value does not exist ";
+        app0[z] = " \t Warning - " + app[i] + " value does not exist "
         z = z + 1
 
 
