@@ -30,7 +30,6 @@ for i in range(len(app)):
             app_name = pl["CFBundleExecutable"]
             app_name = str(app_name)
             app_version = pl["CFBundleShortVersionString"]
-            print(app_version, '\n')
             if app_version != 0:
                 i = str(i + 1)
             print("\t" + i + ") " + app_name + " - version:  " + app_version)
